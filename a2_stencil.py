@@ -234,7 +234,7 @@ class DbStreamer:
 
         # TODO: Add logic here
         # ------------------------------------------------------------------------------------
-        sql = "(SELECT title FROM original_csv_al WHERE JSON_CONTAINS(keywords,'818') ORDER BY popularity DESC LIMIT 5) UNION (SELECT title FROM original_csv_al WHERE JSON_CONTAINS(keywords,'818') ORDER BY popularity LIMIT 5);"
+        sql = "SELECT * FROM pavgvote;"
         _cursor.execute(sql)
         data = _cursor.fetchall()
         return data
