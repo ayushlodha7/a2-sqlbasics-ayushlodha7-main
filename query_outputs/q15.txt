@@ -1,0 +1,6 @@
+('Pirates of the Caribbean: On Stranger Tides', '["Adventure", "Action", "Fantasy"]')
+("Pirates of the Caribbean: At World's End", '["Adventure", "Fantasy", "Action"]')
+('Avengers: Age of Ultron', '["Action", "Adventure", "Science Fiction"]')
+('Superman Returns', '["Adventure", "Fantasy", "Action", "Science Fiction"]')
+('John Carter', '["Action", "Adventure", "Science Fiction"]')
+('Tangled', '["Animation", "Family"]')
